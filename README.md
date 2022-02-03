@@ -1,5 +1,5 @@
 
-Simple projecto con html , css y javascript
+Simple proyecto con html , css y javascript
 
 
 Permite ingresar 2 opciones para simular un Coin Flip
