@@ -1,8 +1,11 @@
 ﻿const tags = document.getElementsByClassName('tags');
+const arrows = document.getElementsByClassName('arrows');
 const textarea = document.getElementById('textarea');
 const button = document.getElementById('button');
 const title = document.getElementById('title');
 const coin = document.getElementById('coin');
+const question = document.getElementById('question');
+
 
 let state = 0;
 
@@ -34,6 +37,7 @@ button.addEventListener("click", () => {
             textarea.placeholder = "";
             break;
         case 3:
+            question.classList.add('hidden')
             coin.classList.remove('hidden');
             setTimeout(choose, 1100)
             button.disabled = true;
@@ -48,6 +52,7 @@ function choose() {
     let chosen = Math.floor(Math.random() * 2);
     tags[chosen].classList.remove('badge-warning');
     tags[chosen].classList.add('badge-success');
+    arrows[chosen].classList.remove('hidden');
     let notChosen = chosen == 0 ? 1 : 0;
     tags[notChosen].classList.remove('badge-warning');
     tags[notChosen].classList.add('badge-danger');
