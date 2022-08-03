@@ -1,3 +1,4 @@
+# CoinFlip
 
 Simple proyecto con html , css y javascript
 
@@ -11,4 +12,3 @@ Permite ingresar 2 opciones para simular un Coin Flip
 ![result](https://user-images.githubusercontent.com/31046332/152338025-a8eacb23-4101-4c62-a38d-0c1bd4b69058.PNG)
 
 
-(Hecho en Visual Studio 2019)
