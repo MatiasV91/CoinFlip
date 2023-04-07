@@ -5,7 +5,6 @@ Simple proyecto con html , css y javascript
 
 Permite ingresar 2 opciones para simular un Coin Flip
 
-[DEMO](https://coinflip-mv.herokuapp.com/)
 
 ![start](https://user-images.githubusercontent.com/31046332/152338015-bda45c4f-2e9f-4b69-935d-0041d5fce07b.PNG)
 ![coin](https://user-images.githubusercontent.com/31046332/152338020-24af2776-1bee-44d2-b1db-5ebe14ef1356.PNG)
